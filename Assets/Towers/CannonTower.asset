@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 712943cf25d6c0b458f5668dc0ce275d, type: 3}
+  m_Name: CannonTower
+  m_EditorClassIdentifier: 
+  displayName: Cannon Tower
+  cost: 350
+  range: 1.5
+  icon: {fileID: 21300000, guid: 9c20256a9febb6343a1a62031702197d, type: 3}
+  spawnPrefab: {fileID: 279690252080917977, guid: e43f43b9b006d794097f4ca8bad9e132, type: 3}

@@ -1,0 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+[CreateAssetMenu(fileName = "Wave Data", menuName = "New Wave Data")]
+public class WaveData : ScriptableObject
+{
+    public EnemySet[] EnemySets;
+    
+    [System.Serializable]
+    public class EnemySet
+    {
+        public GameObject enemyPrefab;
+        public int spawnCount;
+        public float spawnDelay;
+        public float spawnRate;
+    }
+}
